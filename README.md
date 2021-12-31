@@ -20,11 +20,11 @@
 
 ![检测流程](./imgs/scan1.png)
 
-**混淆标准**
+**【混淆标准】**
 
 使用 [is-minified-code](https://github.com/MartinKolarik/is-minified-code) 库识别代码是否混淆
 
-**sourcemap 识别标准**
+**【sourcemap 识别标准】**
 
 根据 sourcemap 的打包原理，分两步识别：
 1. 匹配源码文件中的 sourceMappingURL 标识，识别关联的 sourcemap 文件地址
