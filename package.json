@@ -1,0 +1,15 @@
+{
+  "name": "scan-minified",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scan:js": "node scanJS.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^2.0.1",
+    "is-minified-code": "^2.0.0"
+  }
+}
