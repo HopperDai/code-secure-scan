@@ -25,6 +25,7 @@
 使用 [is-minified-code](https://github.com/MartinKolarik/is-minified-code) 库识别代码是否混淆
 
 **sourcemap 识别标准**
+
 根据 sourcemap 的打包原理，分两步识别：
 1. 匹配源码文件中的 sourceMappingURL 标识，识别关联的 sourcemap 文件地址
 2. 扫描构建物中是否包含步骤一的 sourcemap 文件，如果包含则认为应用暴露了 sourcemap 文件
